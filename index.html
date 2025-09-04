@@ -3,56 +3,294 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>  mido coffe</title>
+    <title>caffeine mudi</title>
     <link rel="stylesheet" href="stylie.css">
      
     <!--lisäsin tänne fontawesome font teksi-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
-    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="icon" href="./kuvat/favicon.ico" type="image/x-icon">
+
+
+
 </head>
 <body >
-
-   
-  
-  
+    <!--- tässä header nevbar-->
   <header id="header">
-    <nav class="navbar">
-    <a href="#home"> <img src="kuvat/logo1.png" alt="Damascus coffe" class="logo1"></a>
-    <ul>
-     <li><a href="#menu"> Menu</a></li>
-     <li><a href="#tilaa"> tilaa</a></li>
-     <li><a href="#galleria"> galleria</a></li>
-     <li><a href="#yhteystiedot"> yhteystiedot</a></li>
-    </ul>
-    </nav>
-   </header>  
+      <nav class="navbar">
+        <a href="#home"><img src="./kuvat/logoo.png" alt="caffeine mudi" class="logoo" ></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="#Tilaa">Tilaa</a></li>
+          <li><a href="#Galleria">Galleria</a></li>
+          <li><a href="#Yhteystiedot">Yhteystiedot</a></li>
+        </ul>
+      </nav>
+    </header>  
 
-   <main>
-  
-<section id="home">
+    <!--- main -->
+    <main>
+      <section id="Home">
+        <div class="container">
+          <div class="home-content">
+            <div class="container-text">
+              <h3> Black coffee is awesome.</h3>
+              <h1>TIME DISCOVER COFFEE HOUSE</h1>
+              <P>we care about quality and sustainability, sourcing ethically and using 
+                eco-friendly practices-because
+                  great coffee should make a difference.</P>
+
+                  <a href="#" class="btn"> Explore More <i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <img src="./kuvat/coffee-home.png" alt="coffee home">
+          </div>
+        </div> 
+      </section>
+
+<!--
+          <section id="menu">
+        <div class="container">
+          <div class="heading">
+            <h1><span class = "text-primary">Set Menu</span></h1>
+            <h2>OUR POPULAR MENU</h2>
+             </div>
+
+             <div class="row">
+               <div class="col">
+               <div class="item">
+                <img src="./kuvat/menu-1.png" alt="Espresso">
+                 <div class="details">
+                  <h3>Espresso</h3>
+                  <p>Vahva ja täyteläinen perinteinen espresso</p>
+
+                  <div class="Price">
+                   <p class="text-primary">5€</p>
+
+                  </div>
+                 </div>
+
+                </div>
+                <div class="item">
+                <img src="./kuvat/menu-2.png" alt="Espresso">
+                 <div class="details">
+                  <h3>Americano</h3>
+                  <p>Espresso ja kuumaa vettä</p>
+
+                  <div class="Price">
+                   <p class="text-primary">9€</p>
+
+                  </div>
+                 </div>
+                 
+                </div>
+                <div class="item">
+                <img src="./kuvat/menu-3.png" alt="Espresso">
+                 <div class="details">
+                  <h3>Cappuccino</h3>
+                  <p>Espresso, kuumaa maitoa ja maitovaahtoa</p>
+
+                  <div class="Price">
+                   <p class="text-primary">4€</p>
+
+                  </div>
+                 </div>
+                 
+                </div>
+                <div class="item">
+                <img src="./kuvat/menu-4.png" alt="Espresso">
+                 <div class="details">
+                  <h3>latte</h3>
+                  <p>Tasapainoinen sekoitus espressoa, höyrytettyä maitoa ja kuohkeaa maitovaahtoa.</p>
+                   
+                  <div class="Price">
+                   <p class="text-primary">17€</p>
+
+                  </div>
+                 </div>
+                 
+                </div>
+               </div>
+               <div class="col">
+                <div class="item">
+                <img src="./kuvat/menu-5.png" alt="Espresso">
+                 <div class="details">
+                  <h3>Croissant</h3>
+                  <p>Tuore ranskalainen croissant</p>
+
+                  <div class="Price">
+                   <p class="text-primary">5€</p>
+
+                  </div>
+                 </div>
+                 
+                </div><div class="item">
+                <img src="./kuvat/menu-6.png" alt="Espresso">
+                 <div class="details">
+                  <h3>Kanelipulla</h3>
+                  <p>Perinteinen suomalainen kanelipulla</p>
+
+                  <div class="Price">
+                   <p class="text-primary">8€</p>
+
+                  </div>
+                 </div>
+                 
+                </div><div class="item">
+                <img src="./kuvat/menu-7.png" alt="Espresso">
+                 <div class="details">
+                  <h3>Mustikkapiirakka</h3>
+                  <p>Kotitekoinen mustikkapiirakka</p>
+
+                  <div class="Price">
+                   <p class="text-primary">7€</p>
+
+                  </div>
+                 </div>
+                 
+                </div><div class="item">
+                <img src="./kuvat/menu-8.png" alt="Espresso">
+                 <div class="details">
+                  <h3>Suklaakakku</h3>
+                  <p>Mehevä suklaakakku</p>
+
+                  <div class="Price">
+                   <p class="text-primary">5€</p>
+                  </div>
+                 </div>
+                </div>
+               </div>
+             </div>
+            </div>
+      </section>
+
+
+-->
+
+
+<section id="menu">
   <div class="container">
-    <div class="home-content">
-      <div class="content-text">
-        <h3>Musta kahvi on elämys.</h3>
-        <h1>TULE TUTUSTUMAAN KAHVITALOOMME</h1>
-        <p>Me panostamme laatuun ja kestävyyteen, hankimme kahvin eettisesti ja käytämme ympäristöystävällisiä menetelmiä – 
-           koska hyvä kahvi voi todella tehdä eron.</p>
+    <div class="heading">
+      <h1><span class="text-primary">Set Menu</span></h1>
+      <h2>OUR POPULAR MENU</h2>
+    </div>
 
-        <a href="#" class="btn">Tutustu enemään <i class="fa-solid fa-cart-shopping"></i> </a>
-      </div><!-- .content-text -->
+    <div class="row">
+      <div class="col">
+        
+        <div class="item">
+          <img src="./kuvat/menu-1.png" alt="Espresso">
+          <div class="details">
+            <h3>Espresso</h3>
+            <p>Vahva ja täyteläinen perinteinen espresso</p>
+          </div>
+          <div class="price">5€</div>
+        </div>
 
-      <img src="./kuvat/coffee-home.png" alt=" coffee-home">
-    </div><!-- .home-content -->
-  </div><!-- .container -->
+        <div class="item">
+          <img src="./kuvat/menu-2.png" alt="Americano">
+          <div class="details">
+            <h3>Americano</h3>
+            <p>Espresso ja kuumaa vettä</p>
+          </div>
+          <div class="price">9€</div>
+        </div>
+
+        <div class="item">
+          <img src="./kuvat/menu-3.png" alt="Cappuccino">
+          <div class="details">
+            <h3>Cappuccino</h3>
+            <p>Espresso, kuumaa maitoa ja maitovaahtoa</p>
+          </div>
+          <div class="price">4€</div>
+        </div>
+
+        <div class="item">
+          <img src="./kuvat/menu-4.png" alt="Latte">
+          <div class="details">
+            <h3>Latte</h3>
+            <p>Tasapainoinen sekoitus espressoa, höyrytettyä maitoa ja kuohkeaa maitovaahtoa.</p>
+          </div>
+          <div class="price">7€</div>
+        </div>
+
+      </div>
+      <div class="col">
+
+        <div class="item">
+          <img src="./kuvat/menu-5.webp" alt="Croissant">
+          <div class="details">
+            <h3>Croissant</h3>
+            <p>Tuore ranskalainen croissant</p>
+          </div>
+          <div class="price">5€</div>
+        </div>
+
+        <div class="item">
+          <img src="./kuvat/menu-6.webp" alt="Kanelipulla">
+          <div class="details">
+            <h3>Kanelipulla</h3>
+            <p>Perinteinen suomalainen kanelipulla</p>
+          </div>
+          <div class="price">8€</div>
+        </div>
+
+        <div class="item">
+          <img src="./kuvat/menu-7.webp" alt="Mustikkapiirakka">
+          <div class="details">
+            <h3>Mustikkapiirakka</h3>
+            <p>Kotitekoinen mustikkapiirakka</p>
+          </div>
+          <div class="price">7€</div>
+        </div>
+
+        <div class="item">
+          <img src="./kuvat/menu-8.webp" alt="Suklaakakku">
+          <div class="details">
+            <h3>Suklaakakku</h3>
+            <p>Mehevä suklaakakku</p>
+          </div>
+          <div class="price">5€</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="yhteystiedot">
+  <div class="container">
+    <div class="heading">
+     <h1><span class="text-primary">Set Menu</span></h1>
+      <h2>Tästä voi tilata</h2>
+    </div>
+    <div class="row">
+      <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d843.3145764358072!2d25.52578499536765!3d64.
+        9927257997022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cdd2ae9ff2ff%3A0x6f8f1d0d467d239c!2sVainYksi!5e0!3m2!
+        1sar!2sfi!4v1757025811113!5m2!1sar!2sfi" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      <div class="contact-content">
+        <h3>Tila tästä</h3>
+        <form>
+          <input type="text" name="Etunimi ja sukunimi" id="Etunimi ja sukunimi" placeholder="Etunimi ja sukunimi">
+          <input type="Sähköposti" name="Sähköposti" id="Sähköposti" placeholder="Sähköposti">
+          <input type="text" name="Tuotteen nimi" id="Tuotteen nimir" placeholder="Tuotteen nimi">
+          <textarea name="viesti" id="viesti" placeholder="Lisätieto" rows="6"></textarea>
+          <button type="submit" class="btn-submit">Tee tilaus</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </section>
 
 
-   </main>
-      
-    
 
 
+
+
+
+    </main>
 </body>
 </html> 
 
